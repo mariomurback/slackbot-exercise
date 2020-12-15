@@ -97,7 +97,7 @@ module.exports.botScripts = [
         return "Go home! You still have 4 sick days available to you."
       }else if (params.sicklevel < 5)
       return "Babushka has some meds here at the office, please come see Julie at the lobby."
-      // The goal here is to also add a way for the bot to check how many sick days the employee still had
+      // The goal here is to also add a way for the bot to check how many sick days the employee still has
       // need to connect with BambooHR-API
 
     },
